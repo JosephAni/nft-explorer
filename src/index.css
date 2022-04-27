@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Major+Mono+Display&family=Oranienbaum&family=Squada+One&display=swap');
 
 .alchemy {
   background: #fc466b; /* fallback for old browsers */
