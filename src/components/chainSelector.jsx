@@ -20,7 +20,6 @@ const ChainSelector = ({ setBlockchain, chain }) => {
           name='blockchain'
           value='Rinkeby'
           checked={chain === 'Rinkeby'}
-          disabled
         />
         <label htmlFor='Rinkeby'>Rinkeby</label>
       </div>
@@ -42,10 +41,10 @@ const ChainSelector = ({ setBlockchain, chain }) => {
           className='mr-1'
           type='radio'
           name='blockchain'
-          value='Mumbai'
-          checked={chain === 'Mumbai'}
+          value='Bitcoin'
+          checked={chain === 'Bitcoin'}
         />
-        <label htmlFor='Mumbai'>Mumbai</label>
+        <label htmlFor='Bitcoin'>Bitcoin</label>
       </div>
     </div>
   )
